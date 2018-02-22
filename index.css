@@ -1,0 +1,65 @@
+html, body {
+	background: url('assets/abstractVectorBlueMeshBackgroundChaoticPointsPolygons/653.jpg');
+	background-size: cover;
+
+}
+
+
+.container {
+	border: black solid;
+	padding: 2vw;
+}
+
+#adrian {
+	max-height: 20vw;
+	border-radius: 3vw;
+}
+
+#adrianButton {
+	transform: rotate(-13deg);
+	border-radius: 3vw;
+	border-style: groove;
+	border-width: 3vw;
+	border-color: lime;
+}
+
+#dpad{
+	height: 20vw;
+/*    transform: rotate(30deg);
+*/    border-radius: 3vw;
+}
+
+#dpadButton {
+	transform: rotate(30deg);
+	border-radius: 3vw;
+	border-style:groove;
+	border-width: 3vw;
+	border-color: navy;
+}
+
+#bookworm {
+	height: 20vw;
+/*	transform: rotate(-20deg);
+*/	border-radius: 2vw;
+}
+
+#bookwormButton {
+	transform: rotate(-20deg);
+	border-radius: 3vw;
+	border-style: groove;
+	border-width: 3vw;
+	border-color: gold;
+}
+
+#gdc {
+	height: 20vw;
+	border-radius: 2vw;
+}
+
+#gdcButton{
+	transform: rotate(20deg);
+	border-radius:3vw;
+	border-style: groove;
+	border-width: 3vw;
+	border-color: red;
+}
