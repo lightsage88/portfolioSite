@@ -1,12 +1,67 @@
-html, body {
-	background: url('assets/abstractVectorBlueMeshBackgroundChaoticPointsPolygons/653.jpg');
-	background-size: cover;
-
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Kavivanar');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Shrikhand');
+@font-face {
+	font-family: 'UniversalAcc';
+	src: url('assets/MovieFont/Uni_acc.ttf')format('truetype');
 }
 
+@font-face {
+	font-family: 'Gravity';
+	src: url('assets/GravityFont/Gravity.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'MGSFont';
+	src: url('assets/MGSFont/mgs2.ttf') format('truetype');
+}
+
+html, body {
+/*	background: url('assets/abstractVectorBlueMeshBackgroundChaoticPointsPolygons/653.jpg');
+/*background: url('assets/seamlessTextureWithRandomlySpacedPoints/29.jpg');
+*/
+background: url('assets/polygonalLinesOnWhiteBackground/6452.jpg');
+background-size: cover;
+}
+
+.credits {
+	font-family: 'UniversalAcc', sans-serif;
+	font-size: 4vw;
+	color: white;
+}
+
+section.stackIconBox {
+	display:inline-flex;
+}
+
+.stackIcon {
+	max-height: 3.5vw;
+	margin: auto .5vw;
+}
+
+header{
+	text-align: center;
+	font-family: 'Permanent Marker', serif;
+	color: #145c9e;
+	background: rgba(0,0,0,0.7);
+}
+
+header h3 {
+	font-weight:bolder;
+	font-size:10vw;
+}
+
+header span {
+	font-size: 6vw;
+}
+
+header h1 {
+	font-size: 7vw;
+    color: whitesmoke;
+    text-shadow: -0.3vw -0.3vw lightslategrey;
+    font-style: italic;
+}
 
 .container {
-	border: black solid;
 	padding: 2vw;
 }
 
@@ -24,9 +79,40 @@ html, body {
 }
 
 #dpad{
-	height: 20vw;
+	height: 13vw;
 /*    transform: rotate(30deg);
 */    border-radius: 3vw;
+display: inline;
+}
+
+.dpadTitle {
+	display: inline;
+}
+
+.dpadText {
+	font-family: 'MGSFont', serif;
+	font-size: 13vw;
+	color: white;
+	display: inline;
+	text-shadow: .3vw .6vw #80aba9;
+}
+
+.DPblurb {
+	font-family: 'MGSFont', serif;
+	font-size: 2.2vw;
+	color:#7CFEF0;
+}
+
+#dpadSpan {
+	font-size: 11vw;
+		color:white;
+text-shadow: .3vw .6vw #80aba9;
+}
+
+#hyphen {
+	font-family: arial;
+	font-size: 13vw;
+	display: inline;
 }
 
 #dpadButton {
@@ -38,9 +124,21 @@ html, body {
 }
 
 #bookworm {
-	height: 20vw;
+	height: 14vw;
 /*	transform: rotate(-20deg);
 */	border-radius: 2vw;
+}
+
+#bookwormFrame {
+	border: solid white;
+	background:black;
+	margin-bottom:1vw;
+}
+
+.MBblurb{
+	font-family: 'Comfortaa', sans-serif;
+	color: gold;
+	font-size: 2vw;
 }
 
 #bookwormButton {
@@ -51,8 +149,22 @@ html, body {
 	border-color: gold;
 }
 
+img#marvelLogo {
+	height: 6vw;
+	display: inline;
+}
+
+h2#marvelousBookwormSuffix{
+	font-size: 1.95vw;
+	color:white;
+	display: inline;
+	font-family: 'Comfortaa', sans-serif;
+	position: relative;
+	top: .5vw;
+}
+
 #gdc {
-	height: 20vw;
+	height: 15vw;
 	border-radius: 2vw;
 }
 
@@ -61,5 +173,29 @@ html, body {
 	border-radius:3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: red;
+	border-color: hotpink;
 }
+
+#gdcTitle{
+	font-family: 'Crafty Girls', cursive;
+	font-size: 4vw;
+	font-weight: bolder;
+	color: red;
+	transform: rotate(-5deg);
+	margin-bottom: 3vw;
+}
+
+.GDCblurb {
+	font-family: 'Delius Swash Caps', sans-serif;
+	color:white;
+	font-size: 2vw;
+}
+
+.dpDetails, .bmDetails, .gdcDetails {
+	background: black;
+	box-shadow: 0px 0px 0px 5px black;
+	transition: box-shadow 0.6s linear;
+	margin: 0 .5em;
+}
+
+.dpDetails:hover, .bmDetails:hover {box-shadow: 0px 0px 0px 10px black;}
