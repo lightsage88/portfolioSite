@@ -1,0 +1,22 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightsage88/portfolioSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightsage88/portfolioSite/issues"
+  },
+  "homepage": "https://github.com/lightsage88/portfolioSite#readme",
+  "dependencies": {
+    "rotate-icon": "^1.0.3"
+  }
+}
