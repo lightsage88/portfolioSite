@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Kavivanar');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @font-face {
 	font-family: 'UniversalAcc';
 	src: url('assets/MovieFont/Uni_acc.ttf')format('truetype');
@@ -34,14 +35,14 @@ section.stackIconBox {
 }
 
 .stackIcon {
-	max-height: 3.5vw;
+	max-height: 2.5vw;
 	margin: auto .5vw;
 }
 
 header{
 	text-align: center;
 	font-family: 'Permanent Marker', serif;
-	color: #145c9e;
+	color: #63CCCA;
 	background: rgba(0,0,0,0.7);
 }
 
@@ -75,7 +76,21 @@ header h1 {
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: lime;
+	border-color: #63CCCA;
+}
+
+#aboutMeStart {
+	font-family: 'Permanent Marker', sans-serif;
+	color: #f8f8f8;
+}
+
+.aboutMe {
+	font-size: 2.2vw;
+}
+
+.meBlurb {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #dpad{
@@ -98,9 +113,11 @@ display: inline;
 }
 
 .DPblurb {
-	font-family: 'MGSFont', serif;
+	font-family: 'Open Sans Condensed', serif;
 	font-size: 2.2vw;
 	color:#7CFEF0;
+	position: relative;
+	bottom: 3vw;
 }
 
 #dpadSpan {
@@ -136,8 +153,8 @@ text-shadow: .3vw .6vw #80aba9;
 }
 
 .MBblurb{
-	font-family: 'Comfortaa', sans-serif;
-	color: gold;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F1BF98;
 	font-size: 2vw;
 }
 
@@ -146,7 +163,7 @@ text-shadow: .3vw .6vw #80aba9;
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: gold;
+	border-color: #ff0022;
 }
 
 img#marvelLogo {
@@ -155,7 +172,7 @@ img#marvelLogo {
 }
 
 h2#marvelousBookwormSuffix{
-	font-size: 1.95vw;
+	font-size: 1.8vw;
 	color:white;
 	display: inline;
 	font-family: 'Comfortaa', sans-serif;
@@ -173,29 +190,31 @@ h2#marvelousBookwormSuffix{
 	border-radius:3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: hotpink;
+	border-color: #1a936f;
 }
 
 #gdcTitle{
 	font-family: 'Crafty Girls', cursive;
 	font-size: 4vw;
 	font-weight: bolder;
-	color: red;
+	color: #ff0022;
 	transform: rotate(-5deg);
 	margin-bottom: 3vw;
+	margin-top: 2vw;
 }
 
 .GDCblurb {
-	font-family: 'Delius Swash Caps', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
 	font-size: 2vw;
+	color: #EF476F;
 }
 
-.dpDetails, .bmDetails, .gdcDetails {
+.dpDetails, .bmDetails, .gdcDetails, .aboutMe {
 	background: black;
 	box-shadow: 0px 0px 0px 5px black;
 	transition: box-shadow 0.6s linear;
 	margin: 0 .5em;
 }
 
-.dpDetails:hover, .bmDetails:hover {box-shadow: 0px 0px 0px 10px black;}
+.dpDetails:hover, .bmDetails:hover, .gdcDetails:hover, .aboutMe:hover {box-shadow: 0px 0px 0px 10px black;}
