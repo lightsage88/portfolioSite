@@ -1,6 +1,6 @@
 
 
-$('.dpDetails').mouseover(()=>{
-	console.log('truecrip');
-	$(this).slideToggle();
-});
+// $('.dpDetails').mouseover(()=>{
+// 	console.log('truecrip');
+// 	$(button).rotate();
+// });

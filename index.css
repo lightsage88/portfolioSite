@@ -22,6 +22,7 @@ html, body {
 */
 background: url('assets/polygonalLinesOnWhiteBackground/6452.jpg');
 background-size: cover;
+background-position-y: 41vw;
 }
 
 .credits {
@@ -64,6 +65,7 @@ header h1 {
 
 .container {
 	padding: 2vw;
+	margin-bottom: 4vw;
 }
 
 #adrian {
@@ -77,6 +79,11 @@ header h1 {
 	border-style: groove;
 	border-width: 3vw;
 	border-color: #63CCCA;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
 }
 
 #aboutMeStart {
@@ -138,6 +145,10 @@ text-shadow: .3vw .6vw #80aba9;
 	border-style:groove;
 	border-width: 3vw;
 	border-color: navy;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 #bookworm {
@@ -164,6 +175,11 @@ text-shadow: .3vw .6vw #80aba9;
 	border-style: groove;
 	border-width: 3vw;
 	border-color: #ff0022;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
 }
 
 img#marvelLogo {
@@ -191,6 +207,10 @@ h2#marvelousBookwormSuffix{
 	border-style: groove;
 	border-width: 3vw;
 	border-color: #1a936f;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 #gdcTitle{
@@ -218,3 +238,148 @@ h2#marvelousBookwormSuffix{
 }
 
 .dpDetails:hover, .bmDetails:hover, .gdcDetails:hover, .aboutMe:hover {box-shadow: 0px 0px 0px 10px black;}
+
+@keyframes rotateButton {
+	0% {transform:rotate(0deg);}
+	25% {transform:rotate(-7deg);}
+	50%{transform:rotate(0deg);}
+	75%{transform: rotate(7deg);}
+	100%{transform: rotate(0deg);}
+}
+
+footer {
+	border: #63ccca dashed;
+    text-align: center;
+    font-family: 'Permanent Marker', sans-serif;
+    border-radius: 1.4vw;
+    padding: 1vw;
+    font-size: 2.5vw;
+    margin-top: 5vw;
+}
+
+a#gitHubLink, a#linkedInLink {
+	display: inline-flex;
+}
+
+img#gitHubIcon {
+	height: 5vw;
+	margin-left: 1vw;
+}
+
+img#linkedInIcon {
+	height:2vw;
+	margin-left: 1vw;
+	margin-top: 1vw;
+}
+
+@media only screen and (min-width: 1000px) {
+
+	body {
+		background-position-y: 10vw;
+		background-repeat: no-repeat;
+	}
+
+	header h3 {
+		font-weight: bolder;
+		font-size: 3vw;
+	}
+
+	header span {
+		font-size: 2vw;
+	}
+
+	header h1 {
+		font-size: 2vw;
+	}
+
+	.container {
+		padding: 2vw;
+		margin-bottom: 0;
+	}
+
+	#adrian, #dpad, #bookworm, #gdc {
+		max-height: 9vw;
+		border-radius: 0;
+	}
+
+	button#adrianButton {
+		position: absolute;
+		left: -13vw;
+	}
+
+	button#dpadButton {
+		position: relative;
+		left: 50vw;
+	}
+
+	button#bookwormButton {
+		position: absolute;
+		left: -6vw;
+		top:6vw;
+		z-index: 1;
+	}
+
+	button#gdcButton {
+		position: absolute;
+		left: 51vw;
+		top: 29vw;
+/*		margin-left: 30vw;
+*/	}
+
+	.aboutMe, .DPblurb, .MBblurb, .GDCblurb {
+		font-size: 1.8vw;
+	}
+
+	.DPblurb {
+		bottom: 1vw;
+	}
+
+	p.dpadText, span#dpadSpan {
+		font-size: 7vw;
+		margin-bottom: 1vw;
+	} 
+
+	.credits {
+		font-size: 2vw;
+	}
+
+	h2#marvelousBookwormSuffix {
+		font-size: 1.5vw;
+	}
+
+	div.col-8.dpadTitle.dpDetails {
+		position: absolute;
+		left: 1vw;
+	}
+
+/*	div.col-7.bmDetails {
+		position: absolute;
+		margin-top: 7vw;
+		right: 1vw;
+	}*/
+	div.col-7.bmDetails {
+	    position: absolute;
+	
+    margin-top: 7vw;
+    right: 15vw;
+}
+	div.col-8.gdcDetails {
+		position: absolute;
+		margin-top: 28vw;
+		left: 1vw;
+	}
+
+	#gdcTitle {
+		margin-top:0;
+	}
+
+	footer {
+		margin-top: 53vw;
+	    font-size: 2vw;
+	    width: auto;
+	    margin-left: 12%;
+	    margin-right: 12%;
+	    min-width: 75%;
+		}
+	}
+}
