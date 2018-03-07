@@ -5,40 +5,57 @@
 	<link href="https://fonts.googleapis.com/css?family=Bungee|Comfortaa" rel="stylesheet">
 	<link rel='stylesheet' href='assets/GravityFont/Gravity.tff'>
 	<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
-	<link rel='stylesheet' type='text/css' href='index.css'>
+	<link rel='stylesheet' type='text/css' href='index2.css'>
+	<link rel='stylesheet' type='text/css' href='css/stars.css'>
 </head>
 <body>
-	<div class='headerGroup'>
+    <section class='intro'>
+<!--
+        <div class='headerGroup'>
 		<header>
-			<h3>Adrian Rosales<br>
-				<span>web developer &amp; opera singer</span>
+			<h3 id='title'>Adrian Rosales<br>
+                <span>web developer</span><br><span>&amp</span><br>
+                    <span>opera singer</span>
 			</h3>
 			<h1>
 				expanding horizons on the web and stage...
 			</h1>
 		</header>
-	</div><!--headerGroup-->
+	</div>headerGroup
+-->
+        
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'>
+            <span>ADRIAN ROSALES</span>
+            <br>
+            <span>web developer<br>
+            &amp;<br>
+                opera singer</span>
+            <br>
+            <small>expanding horizons on the web and stage...</small>
+        </div>
+	
+    </section><!--intropart-->
 	<main>			
-			<div class='container'>
-				<div class='row'>
-					<div class='col'>
-						<a href='/about'><button id='adrianButton'><img id='adrian' src='assets/AdrianEdmundoRosales.jpg'></button></a>
-					</div><!--col-->
-			</div><!--container-->
+    <section class='about'>
 			<div class='container'>
 				<div class='row'>
 					<div class='col aboutMe'>
+                        <img id='adrian' src='assets/AdrianEdmundoRosales.jpg'>
 						<p id='aboutMeStart'>About Adrian</p>
-						<span class='meBlurb'>
+						<span class='meBlurb'>                          
 							<p>I grew up in Portland, OR and earned my Bachelors and Masters of Music in Operatic Performance at the University of Southern California. Since graduating, I have enjoyed a busy performance schedule across the country, but felt my innate curiousity and joy for working with technology was neglected.
 								Moreover, the state of performing arts in the U.S., coupled with the national, and my personal, bloated student debt issues made me think seriously about expanding my skill-set to include something that would make me feel fulfilled and provide some security.
-							<br><br> I thought that pursuing a course of study rooted in web development would offer me the well-roundedness I sought. Enrolling in Thinkful has proven to be one of the more fulfilling, joyful, and engaging choices I have made and I look forward to where my work in web development will take me!</p>
-							<br>
-							Feel free to peruse my performance website <a href='http://www.adrian-rosales.com'>here</a> to learn more about my operatic career!</span>
-						</span>
+							<br><br> I thought that pursuing a course of study rooted in web development would offer me the well-roundedness I sought. Enrolling in Thinkful has proven to be one of the more fulfilling, joyful, and engaging choices I have made and I look forward to where my work in web development will take me!
+							Feel free to peruse my performance website <a href='http://www.adrian-rosales.com'>here</a> to learn more about my operatic career!</p>
+				
 					</div><!--col-->
 				</div><!--row-->
 			</div><!--container-->
+            </div>
+        </section>
 			<div class='container'>
 				<div class='row'>
 					<div class='col-8 dpadTitle dpDetails'>
@@ -107,7 +124,6 @@
 							<small class='credits'>STARRING HTML5, CSS3, JAVASCRIPT, NODE.JS, EXPRESS</small>
 							<br>
 							<small class='credits'>INTRODUCING REACT, REDUX, ENZYME,  &amp; JEST</small>
-						</section><!--appInfo-->
 						<section class='stackIconBox'>
 							<img class='stackIcon' src='assets/techIcons/html-5.svg'>
 							<img class='stackIcon' src='assets/techIcons/css-3.svg'>

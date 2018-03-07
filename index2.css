@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Kavivanar');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@font-face {
+	font-family: 'UniversalAcc';
+	src: url('assets/MovieFont/Uni_acc.ttf')format('truetype');
+}
+
+
+
+@font-face{
+	font-family: 'MGSFont';
+	src: url('assets/MGSFont/mgs2.ttf') format('truetype');
+}
+
+
+
+section {
+    border: solid black;
+}
+
+section.intro {
+    background: midnightblue;
+    position: relative;
+    height: -webkit-fill-available;
+    
+}
+
+div#title{
+font-family: 'Permanent Marker', sans-serif;
+    position: absolute;
+    top: 35%;
+}
+
+div#title span {
+    color:#63CCCA;
+    text-shadow: .3vw .3vw .3vw red;
+}
+
+div#title small {
+    display:inherit;
+    font-size: 55%;
+}
+
+img#adrian {
+    height: auto;
+    max-height:40vw;
+    position: relative;
+    float: left;
+    margin-bottom:3vw;
+    margin-right: 3vw;
+}
+
+div.col.aboutMe {
+    padding: 5vw;
+    font-size:1.7vw;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
