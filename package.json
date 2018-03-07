@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lightsage88/portfolioSite#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "rotate-icon": "^1.0.3"
   }
 }
