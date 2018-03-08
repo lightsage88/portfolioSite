@@ -6,27 +6,16 @@
 	<link rel='stylesheet' href='assets/GravityFont/Gravity.tff'>
 	<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
 	<link rel='stylesheet' type='text/css' href='index2.css'>
-	<link rel='stylesheet' type='text/css' href='css/stars.css'>
+	<link rel='stylesheet' type='text/css' href='shiny.css'>
 </head>
 <body>
-    <section class='intro'>
-<!--
-        <div class='headerGroup'>
-		<header>
-			<h3 id='title'>Adrian Rosales<br>
-                <span>web developer</span><br><span>&amp</span><br>
-                    <span>opera singer</span>
-			</h3>
-			<h1>
-				expanding horizons on the web and stage...
-			</h1>
-		</header>
-	</div>headerGroup
--->
+    
+	<main>	
+        <section class='intro'>
         
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
+        <div class='stars'></div>
+        <div class='twinkling'></div>
+        <div class='clouds'></div>
         <div id='title'>
             <span>ADRIAN ROSALES</span>
             <br>
@@ -34,134 +23,88 @@
             &amp;<br>
                 opera singer</span>
             <br>
-            <small>expanding horizons on the web and stage...</small>
+            <small id='tagline'>expanding horizons on the web and stage...</small>
         </div>
 	
     </section><!--intropart-->
-	<main>			
     <section class='about'>
-			<div class='container'>
-				<div class='row'>
-					<div class='col aboutMe'>
+    
+        <div class='container'>
+                <div class='row'>
+                    <div class='col aboutMe'>
                         <img id='adrian' src='assets/AdrianEdmundoRosales.jpg'>
-						<p id='aboutMeStart'>About Adrian</p>
-						<span class='meBlurb'>                          
-							<p>I grew up in Portland, OR and earned my Bachelors and Masters of Music in Operatic Performance at the University of Southern California. Since graduating, I have enjoyed a busy performance schedule across the country, but felt my innate curiousity and joy for working with technology was neglected.
-								Moreover, the state of performing arts in the U.S., coupled with the national, and my personal, bloated student debt issues made me think seriously about expanding my skill-set to include something that would make me feel fulfilled and provide some security.
-							<br><br> I thought that pursuing a course of study rooted in web development would offer me the well-roundedness I sought. Enrolling in Thinkful has proven to be one of the more fulfilling, joyful, and engaging choices I have made and I look forward to where my work in web development will take me!
-							Feel free to peruse my performance website <a href='http://www.adrian-rosales.com'>here</a> to learn more about my operatic career!</p>
-				
-					</div><!--col-->
-				</div><!--row-->
-			</div><!--container-->
-            </div>
+                        <p id='aboutMeStart'>About Adrian</p>
+                        <span class='meBlurb'>                          
+                            <p id='meParagraph'>I grew up in Portland, OR and earned my Bachelors and Masters of Music in Operatic Performance at the University of Southern California. Since graduating, I have enjoyed a busy performance schedule across the country, but felt my innate curiousity and joy for working with technology was neglected.
+                                Moreover, the state of performing arts in the U.S., coupled with the national, and my personal, bloated student debt issues made me think seriously about expanding my skill-set to include something that would make me feel fulfilled and provide some security.
+                            <br><br> I thought that pursuing a course of study rooted in web development would offer me the well-roundedness I sought. Enrolling in Thinkful has proven to be one of the more fulfilling, joyful, and engaging choices I have made and I look forward to where my work in web development will take me!
+                                <br><br>
+                            Feel free to peruse my performance website <a href='http://www.adrian-rosales.com'>here</a> to learn more about my operatic career!</p>
+                        </span>
+                    </div><!--col-->
+                </div><!--row-->
+            </div><!--container-->
         </section>
-			<div class='container'>
-				<div class='row'>
-					<div class='col-8 dpadTitle dpDetails'>
-						<p class='dpadText'>D</p><span id='dpadSpan'>-</span><p class='dpadText'>PAD</p>
-						<section class='appInfo'>
-							<span class='DPblurb'>
-								Behind every videogame is a director and a team of developers striving to realize their leader's vision. See a chronological list of teams' outputs.
-							</span>
-							<br>
-							<small class='credits'>INTRODUCING HTML5, CSS3, JAVASCRIPT, &AMP; JQUERY</small>
-							<br>
-							<section class='stackIconBox'>
-								<img class='stackIcon' src='assets/techIcons/html-5.svg'>
-								<img class='stackIcon' src='assets/techIcons/css-3.svg'>
-								<img class='stackIcon' src='assets/techIcons/javascript.svg'>
-								<img class='stackIcon' src='assets/techIcons/jquery.png'>
-								<img class='stackIcon' src='assets/techIcons/travis-ci.svg'>
-
-							</section>
-						</section><!--appInfo-->
-					</div><!--col-->
-					<div class='col-2'>
-						<a href='dpad.html'><button id='dpadButton'><img id='dpad' src='assets/handDrawnGameOverBackground/69637-OCVHSI-612.jpg'></button></a>
-					</div><!--col-->
-				</div><!--row-->
-			</div><!--container-->
-			<div class='container'>
-				<div class='row'>
-					<div class='col'>
-						<a href='bookWorm.html'><button id='bookwormButton'><img id='bookworm' src='assets/comicSuperheroChestIllustration/150-01.jpg'></button></a>
-					</div><!--col-->
-					<div class='col-7 bmDetails'>
-						<section id='bookwormFrame'>
- 							<img id='marvelLogo' src='assets/marvel.png'><h2 id='marvelousBookwormSuffix'>-OUS BOOKWORM</h2>
- 						</section>
- 						<section class='appInfo'>
-							<span class='MBblurb'>In a world of superhero mashups, the bookworm will help you find all their original teamup stories in print with just the mere search of a comic-book character's name.</span>
-							<br>
-							<small class='credits'>STARRING HTML5, CSS3, JAVASCRIPT, JQUERY</small>
-							<br>
-							<small class='credits'>INTRODUCING NODE.JS, CHAI, MOCHA, &amp; EXPRESS</small>
-						</section><!--appInfo-->
-						<section class='stackIconBox'>
-							<img class='stackIcon' src='assets/techIcons/html-5.svg'>
-							<img class='stackIcon' src='assets/techIcons/css-3.svg'>
-							<img class='stackIcon' src='assets/techIcons/javascript.svg'>
-							<img class='stackIcon' src='assets/techIcons/jquery.png'>
-							<img class='stackIcon' src='assets/techIcons/nodejs-icon.svg'>
-							<img class='stackIcon' src='assets/techIcons/chai.svg'>
-							<img class='stackIcon' src='assets/techIcons/mocha.svg'>
-							<img class='stackIcon' src='assets/techIcons/express.png'>
-							<img class='stackIcon' src='assets/techIcons/travis-ci.svg'>
-						</section>
-					</div><!--col-->
-				</div><!--row-->
-			</div><!--container-->
-			<div class='container'>
-				<div class='row'>
-					<div class='col-8 gdcDetails'>
-						<p id='gdcTitle'>GRAB DAT CAT</p>
-						<span class='GDCblurb'>
-								So many cats to adopt, hooman. But will your personality type jive best with the cat you seek?
-								Use GDC to discover more about yourself and which furry friend will suit you best!
-						</span>
-						<br>
-							<small class='credits'>STARRING HTML5, CSS3, JAVASCRIPT, NODE.JS, EXPRESS</small>
-							<br>
-							<small class='credits'>INTRODUCING REACT, REDUX, ENZYME,  &amp; JEST</small>
-						<section class='stackIconBox'>
-							<img class='stackIcon' src='assets/techIcons/html-5.svg'>
-							<img class='stackIcon' src='assets/techIcons/css-3.svg'>
-							<img class='stackIcon' src='assets/techIcons/javascript.svg'>
-							<img class='stackIcon' src='assets/techIcons/nodejs-icon.svg'>
-							<img class='stackIcon' src='assets/techIcons/react.svg'>
-							<img class='stackIcon' src='assets/techIcons/redux.svg'>
-							<img class='stackIcon' src='assets/techIcons/jest.svg'>
-							<img class='stackIcon' src='assets/techIcons/express.png'>
-							<img class='stackIcon' src='assets/techIcons/travis-ci.svg'>
-
-						</section>
-					</div><!--col-->
-					<div class='col-2'>
-						<button id='gdcButton'><img id='gdc' src='assets/portraitOfManCat/1931.jpg'></button>
-					</div><!--col-->
-				</div><!--row-->
-	<div class='col footercol'>
-		<div class='row'>		
-	<footer>
-		<div>
-			<a id='gitHubLink' href='https://github.com/lightsage88/'>
-				<p>GITHUB: lightsage88</p>
-				<img id='gitHubIcon' src='assets/techIcons/github-octocat.svg'>
-			</a>
-			<br>
-			<a id='linkedInLink' href='www.linkedin.com/in/adrian-rosales-a74b984a'>
-				<p>LINKEDIN:</p>
-				<img id='linkedInIcon' src='assets/techIcons/linkedin.svg'>
-			</a>
-			<br>
-				<p>Shoot me an email at: <a href='mailto:adrian.e.rosales@gmail.com'>adrian.e.rosales@gmail.com</a></p>
-		</div>
-		<span>coded by a crip in Portland, OR</span>
-	</footer>
-</div>
-</div>
-</div>
+        <div><h4 id='projectStart'>Recent Projects</h4></div>
+        <section class='project1'>
+            <div class='container project1'>
+                <div class='row'>
+                    <div class='col-8 dpadTitle dpDetails'>
+                        <p class='dpadText'>D</p><span id='dpadSpan'>-</span><p class='dpadText'>PAD</p>
+                        <section class='appInfo'>
+                            <span class='DPblurb'>
+                                Behind every videogame is a director and a team of developers striving to realize their leader's vision. See a chronological list of teams' outputs.
+                            </span>
+                            <br>
+                            <small class='credits'>INTRODUCING HTML5, CSS3, JAVASCRIPT, &AMP; JQUERY</small>
+                            <br>
+                            <section class='stackIconBox'>
+                                <img class='stackIcon' src='assets/techIcons/html-5.svg'>
+                                <img class='stackIcon' src='assets/techIcons/css-3.svg'>
+                                <img class='stackIcon' src='assets/techIcons/javascript.svg'>
+                                <img class='stackIcon' src='assets/techIcons/jquery.png'>
+                                <img class='stackIcon' src='assets/techIcons/travis-ci.svg'>
+                            </section>
+                        </section><!--appInfo-->
+                    </div><!--col-->
+                    <div class='col-2'>
+                        <a href='dpad.html'><button id='dpadButton'><img id='dpad' src='assets/handDrawnGameOverBackground/69637-OCVHSI-612.jpg'></button></a>
+                    </div><!--col-->
+                </div><!--row-->
+            </div><!--container-->
+        </section>
+		<section class='project2'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col'>
+                        <a href='bookWorm.html'><button id='bookwormButton'><img id='bookworm' src='assets/comicSuperheroChestIllustration/150-01.jpg'></button></a>
+                    </div><!--col-->
+                    <div class='col-7 bmDetails'>
+                        <section id='bookwormFrame'>
+                            <img id='marvelLogo' src='assets/marvel.png'><h2 id='marvelousBookwormSuffix'>-OUS BOOKWORM</h2>
+                        </section>
+                        <section class='appInfo bookwormInfo'>
+                            <span class='MBblurb'>In a world of superhero mashups, the bookworm will help you find all their original teamup stories in print with just the mere search of a comic-book character's name.</span>
+                            <br>
+                            <small class='credits blackCredits'>STARRING HTML5, CSS3, JAVASCRIPT, JQUERY</small>
+                            <br>
+                            <small class='credits blackCredits'>INTRODUCING NODE.JS, CHAI, MOCHA, &amp; EXPRESS</small>
+                        </section><!--appInfo-->
+                        <section id='mbStack' class='stackIconBox'>
+                            <img class='stackIcon' src='assets/techIcons/html-5.svg'>
+                            <img class='stackIcon' src='assets/techIcons/css-3.svg'>
+                            <img class='stackIcon' src='assets/techIcons/javascript.svg'>
+                            <img class='stackIcon' src='assets/techIcons/jquery.png'>
+                            <img class='stackIcon' src='assets/techIcons/nodejs-icon.svg'>
+                            <img class='stackIcon' src='assets/techIcons/chai.svg'>
+                            <img class='stackIcon' src='assets/techIcons/mocha.svg'>
+                            <img class='stackIcon' src='assets/techIcons/express.png'>
+                            <img class='stackIcon' src='assets/techIcons/travis-ci.svg'>
+                        </section>
+                    </div><!--col-->
+                </div><!--row-->
+            </div><!--container-->
+        </section>
 	</main>
 	
 

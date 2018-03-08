@@ -14,6 +14,9 @@
 	src: url('assets/MGSFont/mgs2.ttf') format('truetype');
 }
 
+html, body {
+    max-width: 100%;
+}
 
 
 section {
@@ -21,16 +24,45 @@ section {
 }
 
 section.intro {
-    background: midnightblue;
     position: relative;
-    height: -webkit-fill-available;
+    height: 100vh;
     
 }
 
+h4#projectStart {
+    text-align:center;
+        font-size: 8vw;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+section.about {
+    background: whitesmoke;
+    height:100vh;
+}
+
+p#aboutMeStart {
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+p#meParagraph {
+    font-size:4.4vw;
+}
+
 div#title{
-font-family: 'Permanent Marker', sans-serif;
-    position: absolute;
-    top: 35%;
+        font-family: 'Permanent Marker', sans-serif;
+    position: relative;
+    top: 8%;
+    z-index: 10;
+    /* left: 40%; */
+    font-size: 9vw;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+/*    border: dotted white;*/
+    width: auto;
+    margin: auto 15%;
+    min-width: 60%;
 }
 
 div#title span {
@@ -40,7 +72,8 @@ div#title span {
 
 div#title small {
     display:inherit;
-    font-size: 55%;
+    font-size: 35%;
+    color: silver;
 }
 
 img#adrian {
@@ -60,3 +93,148 @@ div.col.aboutMe {
 p{
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.project1{
+    background:black;
+        height: 75vh;
+}
+
+p.dpadText {
+    font-family: 'MGSFont', sans-serif;
+    display:inline
+    
+}
+
+p.dpadText, span#dpadSpan {
+    font-size: 22vw;
+        color: white;
+        text-shadow: .7vw .7vw .2vw #7cfef0;
+}
+
+section.appInfo {
+    background: black;
+}
+
+.DPblurb {
+        font-family: 'Open Sans Condensed', serif;
+    font-size: 6.5vw;
+    color: #7cfef0;
+    
+}
+
+img#dpad{
+    height:16vw
+}
+
+#dpadButton {
+    
+	transform: rotate(30deg);
+	border-radius: 3vw;
+	border-style:groove;
+	border-width: 3vw;
+	border-color: navy;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    position: relative;
+    top: 3vw;
+}
+
+.project2 {
+    height: 95vh;
+}
+
+#bookworm {
+	height: 18vw;
+/*	transform: rotate(-20deg);
+*/	border-radius: 2vw;
+}
+
+#bookwormFrame {
+	    border: solid white;
+    background: black;
+    margin-bottom: 1vw;
+    position: relative;
+    right: 43vw;
+    width: max-content;
+}
+
+.MBblurb{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 5.7vw;
+}
+
+img#marvelLogo {
+	height: 22vw;
+	display: inline;
+}
+
+h2#marvelousBookwormSuffix{
+	    font-size: 4.9vw;
+    color: white;
+    display: inline;
+    font-family: 'Comfortaa', sans-serif;
+    position: relative;
+    top: .5vw;
+}
+
+#bookwormButton {
+    position: relative;
+    top: 35vw;
+	transform: rotate(-20deg);
+	border-radius: 3vw;
+	border-style: groove;
+	border-width: 3vw;
+	border-color: #ff0022;
+	animation-name: rotateButton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
+}
+
+section.bookwormInfo {
+    background: white;
+    border: 0;
+}
+
+#mbStack {
+    position: absolute;
+    margin-top:vw;
+    right: -11vw;
+}
+
+.credits {
+	font-family: 'UniversalAcc', sans-serif;
+	font-size: 8vw;
+	color: white;
+}
+
+.blackCredits {
+    font-family: 'UniversalAcc', sans-serif;
+    font-size: 8vw;
+    color:black;
+}
+
+section.stackIconBox {
+	display:inline-flex;
+    border:0;
+
+}
+
+.stackIcon {
+	max-height: 8.5vw;
+	margin: auto 1.5vw;
+}
+
+@keyframes rotateButton {
+	0% {transform:rotate(0deg);}
+	25% {transform:rotate(-7deg);}
+	50%{transform:rotate(0deg);}
+	75%{transform: rotate(7deg);}
+	100%{transform: rotate(0deg);}
+}
+
+
+
