@@ -16,11 +16,20 @@
 
 html, body {
     max-width: 100%;
+    background: whitesmoke;
 }
 
+main {
+    background: whitesmoke;
+}
 
-section {
-    border: solid black;
+/*
+section{
+    margin-bottom:3vw
+}
+*/
+.credits, .stackIconBox {
+    margin-bottom: 4vw;
 }
 
 section.intro {
@@ -33,11 +42,12 @@ h4#projectStart {
     text-align:center;
         font-size: 8vw;
     font-family: 'Permanent Marker', sans-serif;
+    margin-top: 3vw;
 }
 
 section.about {
     background: whitesmoke;
-    height:100vh;
+    height:auto;
 }
 
 p#aboutMeStart {
@@ -96,7 +106,8 @@ p{
 
 .project1{
     background:black;
-        height: 75vh;
+/*        height: 69vh;*/
+    height:auto;
 }
 
 p.dpadText {
@@ -117,7 +128,7 @@ section.appInfo {
 
 .DPblurb {
         font-family: 'Open Sans Condensed', serif;
-    font-size: 6.5vw;
+    font-size: 6vw;
     color: #7cfef0;
     
 }
@@ -142,7 +153,8 @@ img#dpad{
 }
 
 .project2 {
-    height: 95vh;
+/*    height: 95vh;*/
+    height:auto;
 }
 
 #bookworm {
@@ -179,6 +191,8 @@ h2#marvelousBookwormSuffix{
     top: .5vw;
 }
 
+
+
 #bookwormButton {
     position: relative;
     top: 35vw;
@@ -195,14 +209,15 @@ h2#marvelousBookwormSuffix{
 }
 
 section.bookwormInfo {
-    background: white;
+    background: whitesmoke;
     border: 0;
 }
 
 #mbStack {
     position: absolute;
-    margin-top:vw;
     right: -11vw;
+    background: whitesmoke;
+
 }
 
 .credits {
@@ -236,5 +251,27 @@ section.stackIconBox {
 	100%{transform: rotate(0deg);}
 }
 
-
+@media only screen and (min-width:1000px) {
+    div#title {
+        font-size: 5vw;
+        width:auto;
+        margin:auto 20%;
+        min-width: 60%;
+        
+    }
+    
+    img#adrian{
+        height:15vw;
+    }
+    
+    p#meParagraph {
+        font-size: 1.5vw;
+    }
+    
+    p.dpadText, span#dpadSpan {
+    font-size: 8vw;
+        color: white;
+        text-shadow: .2vw .2vw .2vw #7cfef0;
+}
+}
 
