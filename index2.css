@@ -76,8 +76,8 @@ div#title{
 }
 
 div#title span {
-    color:#63CCCA;
-    text-shadow: .3vw .3vw .3vw red;
+    color:#63B0CD;
+    text-shadow: .3vw .3vw .3vw #DF2935;
 }
 
 div#title small {
@@ -119,7 +119,7 @@ p.dpadText {
 p.dpadText, span#dpadSpan {
     font-size: 22vw;
         color: white;
-        text-shadow: .7vw .7vw .2vw #7cfef0;
+        text-shadow: .7vw .7vw .2vw #63B0CD;
 }
 
 section.appInfo {
@@ -129,7 +129,7 @@ section.appInfo {
 .DPblurb {
         font-family: 'Open Sans Condensed', serif;
     font-size: 6vw;
-    color: #7cfef0;
+    color: #63B0CD;
     
 }
 
@@ -143,13 +143,18 @@ img#dpad{
 	border-radius: 3vw;
 	border-style:groove;
 	border-width: 3vw;
-	border-color: navy;
+	border-color: #494F79;
 	animation-name: rotateButton;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
     position: relative;
     top: 3vw;
+}
+
+#dpStack {
+    position: relative;
+    left:-2vw;
 }
 
 .project2 {
@@ -167,6 +172,7 @@ img#dpad{
 	    border: solid white;
     background: black;
     margin-bottom: 1vw;
+    margin-top: 4vw;
     position: relative;
     right: 43vw;
     width: max-content;
@@ -200,7 +206,7 @@ h2#marvelousBookwormSuffix{
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: #ff0022;
+	border-color: #DF2935;
 	animation-name: rotateButton;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
@@ -215,10 +221,62 @@ section.bookwormInfo {
 
 #mbStack {
     position: absolute;
-    right: -11vw;
+    right: -6vw;
     background: whitesmoke;
 
 }
+
+section.project3 {
+    background: black;
+    margin-top: 15vw;
+    height:auto;
+}
+
+img#gdc {
+    height: 18vw;
+}
+
+.gdcDetails{
+    background:black;
+}
+
+p#gdcTitle{
+    font-family: 'Crafty Girls', cursive;
+	font-weight: bolder;
+	color: #DF2935;
+	transform: rotate(-5deg);
+	margin-bottom: 3vw;
+    font-size: 5.7vw;
+    margin-top: 6vw;
+}
+
+#gdcButton{
+    transform: rotate(20deg);
+    border-radius: 3vw;
+    border-style: groove;
+    border-width: 3vw;
+    border-color: #8FC0A9;
+    animation-name: rotateButton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 54vw;
+    top: -126vw;
+}
+
+section.gdcStack {
+    position:relative;
+    left: -10vw;
+    background:black;
+}
+
+span.GDCblurb {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: whitesmoke;
+    font-size: 5.7vw;
+}
+
 
 .credits {
 	font-family: 'UniversalAcc', sans-serif;
@@ -271,7 +329,48 @@ section.stackIconBox {
     p.dpadText, span#dpadSpan {
     font-size: 8vw;
         color: white;
-        text-shadow: .2vw .2vw .2vw #7cfef0;
+        text-shadow: .2vw .2vw .2vw #63B0CD;
 }
+    span.DPblurb{
+        font-size:2vw;
+    }
+    
+    button#bookwormButton {
+        top: 15vw;
+    }
+    .MBblurb{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2vw;
+    }
+    
+    img#marvelLogo {
+        height: 9vw;
+    }
+    h2#marvelousBookwormSuffix {
+        font-size: 2.5vw;
+    }
+    
+    span.GDCblurb {
+        font-size: 2vw;
+    }
+    
+    #gdcButton {
+        left: 60vw;
+        top: -37vw;
+    }
+    
+    section.gdcStack {
+        left: -2vw;
+    }
+    
+   .stackIcon {
+	max-height: 4.5vw;
+	margin: auto 1.5vw;
+}
+    
+    
+    small.credits {
+        font-size:3vw;
+    }
 }
 
