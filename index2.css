@@ -19,6 +19,39 @@ html, body {
     background: whitesmoke;
 }
 
+nav {
+    top:0;
+    background: #DF2935;
+    display:block;
+    position: fixed;
+    left:0;
+    right:0;
+    z-index:88;
+    text-align:center;
+}
+
+ul#nav-links {
+   list-style-type: none;
+    margin: 10px auto;
+    padding: 0;
+    font-family: 'Permanent Marker', sans-serif;
+
+}
+
+#nav-links li a {
+    color: #63B0CD;
+    font-size:3vw;
+}
+
+
+li.nav-link {
+    display:inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
 main {
     background: whitesmoke;
 }
@@ -32,6 +65,13 @@ section{
     margin-bottom: 4vw;
 }
 
+p#contactStart {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 8vw;
+    text-align:center;
+    padding-top:4vw;
+}
+
 section.intro {
     position: relative;
     height: 100vh;
@@ -43,6 +83,7 @@ h4#projectStart {
         font-size: 8vw;
     font-family: 'Permanent Marker', sans-serif;
     margin-top: 3vw;
+    padding-top: 8vw;
 }
 
 section.about {
@@ -50,9 +91,14 @@ section.about {
     height:auto;
 }
 
+#about{
+    padding-top:10vw;
+}
+
 p#aboutMeStart {
     font-weight: bolder;
     font-size: 5vw;
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 p#meParagraph {
@@ -301,6 +347,52 @@ section.stackIconBox {
 	margin: auto 1.5vw;
 }
 
+section.footer {
+    height: 100vh;
+}
+
+footer{
+    margin-top: 5vw;
+    width: auto;
+    margin: auto 5%;
+    min-width: 90%;
+}
+
+#gitHubLink p {
+    margin-bottom: 9vw;
+}
+
+#gitHubLink p, #linkedInLink p {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 5vw;
+}
+
+a#gitHubLink, a#linkedInLink {
+    color: #63B0CD;
+}
+
+img#gitHubIcon {
+    float:right;
+    height: 18vw;
+    
+}
+
+img#linkedInIcon {
+    float:right;
+    clear: right;
+    height:7vw;
+}
+
+#email{
+    margin-top: 3vw;
+}
+
+#email, #salutation {
+    text-align: center;
+    display: inherit;
+    font-size: 7vw;
+    font-family: 'Open Sans Condensed', sans-serif
+}
 @keyframes rotateButton {
 	0% {transform:rotate(0deg);}
 	25% {transform:rotate(-7deg);}
@@ -372,5 +464,39 @@ section.stackIconBox {
     small.credits {
         font-size:3vw;
     }
-}
+    
+    section.footer {
+        height: 100vh;
+    }
+    
+    #gitHubLink p, #linkedInLink p {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 3vw;
+    }
+    
+    img#linkedInIcon {
+        height: 4vw;
+    }
+    
+    img#gitHubIcon {
+        height: 10vw;
+    }
+    
+    #email, #salutation {
+        text-align: center;
+    display: inherit;
+    font-size: 4vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    #gitHubLink p {
+        margin-bottom: 3vw;
+    }
+    
+    p#contactStart {
+        padding-top: 8vw;
+    }
+    
+    
 
+}

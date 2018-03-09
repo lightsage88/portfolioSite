@@ -9,7 +9,19 @@
 	<link rel='stylesheet' type='text/css' href='shiny.css'>
 </head>
 <body>
-    
+    <nav role='navigation' style='display: block;'>
+        <ul id='nav-links'>
+            <li class='nav-link'>
+                <a href='#about'>About</a>
+            </li>
+            <li class='nav-link'>
+                <a href='#projectStart'>Projects</a>
+            </li>
+            <li class='nav-link'>
+                <a href='#contactStart'>Contact</a>
+            </li>
+        </ul>
+    </nav>
 	<main>	
         <section class='intro'>
         
@@ -31,7 +43,7 @@
     
         <div class='container'>
                 <div class='row'>
-                    <div class='col aboutMe'>
+                    <div id='about' class='col aboutMe'>
                         <img id='adrian' src='assets/AdrianEdmundoRosales.jpg'>
                         <p id='aboutMeStart'>About Adrian</p>
                         <span class='meBlurb'>                          
@@ -128,13 +140,38 @@
                          </section>
                     </div><!--col-->
                     </div>
-                <div class='row'>
-                    <div class='col-2'>
-                        <a href='https://affectionate-panini-e16d31.netlify.com/'><button id='gdcButton'><img id='gdc' src='assets/portraitOfManCat/1931.jpg'></button></a>
-                    </div><!--col-->
-                </div><!--row-->
-                    </div>
+                    <div class='row'>
+                        <div class='col-2'>
+                            <a href='https://affectionate-panini-e16d31.netlify.com/'><button id='gdcButton'><img id='gdc' src='assets/portraitOfManCat/1931.jpg'></button></a>
+                        </div><!--col-->
+                    </div><!--row-->
+                </div>
         </section>
+        <section id='contact' class='footer'>
+            <p id='contactStart'>Contact</p>
+        <div class='col footercol'>
+            <div class='row'>        
+                <footer>
+                    <div>
+                        <a id='gitHubLink' href='https://github.com/lightsage88/'>
+                            <p>GITHUB: lightsage88 <img id='gitHubIcon' src='assets/techIcons/github-octocat.svg'></p>
+                            
+                        </a>
+                        <br>
+                        <a id='linkedInLink' href='www.linkedin.com/in/adrian-rosales-a74b984a'>
+                            <p>LINKEDIN: <img id='linkedInIcon' src='assets/techIcons/linkedin.svg'></p>
+                            
+                        </a>
+                        <br>
+                            <p id='email'>Shoot me an email at: <a href='mailto:adrian.e.rosales@gmail.com'>adrian.e.rosales@gmail.com</a></p>
+                    </div>
+                    <span id='salutation'>coded by a crip in Portland, OR</span>
+                </footer>
+            </div>
+        </div>
+
+        </section>
+        
        
        
 	</main>
