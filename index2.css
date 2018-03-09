@@ -14,6 +14,8 @@
 	src: url('assets/MGSFont/mgs2.ttf') format('truetype');
 }
 
+
+
 html, body {
     max-width: 100%;
     background: whitesmoke;
@@ -22,11 +24,10 @@ html, body {
 nav {
     top:0;
     background: #DF2935;
-    display:block;
     position: fixed;
     left:0;
     right:0;
-    z-index:88;
+    z-index:8;
     text-align:center;
 }
 
@@ -50,7 +51,9 @@ li.nav-link {
     margin-right: 15px;
 }
 
-
+nav.hidden {
+    display: none;
+}
 
 main {
     background: whitesmoke;
@@ -485,7 +488,7 @@ img#linkedInIcon {
     #email, #salutation {
         text-align: center;
     display: inherit;
-    font-size: 4vw;
+    font-size: 2.5vw;
     font-family: 'Open Sans Condensed', sans-serif;
     }
     
