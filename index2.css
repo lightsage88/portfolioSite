@@ -115,7 +115,7 @@ div#title{
     z-index: 10;
     /* left: 40%; */
     font-size: 9vw;
-    display: inline-block;
+    display: none;
     text-align: center;
     margin: auto;
 /*    border: dotted white;*/

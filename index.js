@@ -10,7 +10,18 @@ $(document).scroll(function() {
   });
 }
 
-$(showNav());
+function fadeInTitle(){
+    $(document).ready(()=>{
+            $('div#title').fadeIn(1500);
+    });
+}
+
+function showTime(){
+    showNav();
+    fadeInTitle();
+}
+
+$(showTime());
 
 //Courtesy of Christopher Jarvis :)
 //This will not work on newer versions of jQuery...go figure!
