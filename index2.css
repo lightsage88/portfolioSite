@@ -111,7 +111,7 @@ p#meParagraph {
 div#title{
         font-family: 'Permanent Marker', sans-serif;
     position: relative;
-    top: 8%;
+    top: 25%;
     z-index: 10;
     /* left: 40%; */
     font-size: 9vw;
@@ -361,28 +361,21 @@ footer{
     min-width: 90%;
 }
 
-#gitHubLink p {
-    margin-bottom: 9vw;
-}
 
-#gitHubLink p, #linkedInLink p {
-    font-family: 'Permanent Marker', sans-serif;
-    font-size: 5vw;
-}
 
 a#gitHubLink, a#linkedInLink {
-    color: #63B0CD;
+  margin: auto 35%;
+    text-decoration: none;
 }
 
 img#gitHubIcon {
-    float:right;
-    height: 18vw;
+    height: 7vw;
+    margin-bottom:3vw
     
 }
 
 img#linkedInIcon {
-    float:right;
-    clear: right;
+    
     height:7vw;
 }
 
@@ -393,7 +386,7 @@ img#linkedInIcon {
 #email, #salutation {
     text-align: center;
     display: inherit;
-    font-size: 7vw;
+    font-size: 5vw;
     font-family: 'Open Sans Condensed', sans-serif
 }
 @keyframes rotateButton {
@@ -410,6 +403,7 @@ img#linkedInIcon {
         width:auto;
         margin:auto 20%;
         min-width: 60%;
+        top:10%
         
     }
     
@@ -482,13 +476,13 @@ img#linkedInIcon {
     }
     
     img#gitHubIcon {
-        height: 10vw;
+        height: 4vw;
     }
     
     #email, #salutation {
         text-align: center;
     display: inherit;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Open Sans Condensed', sans-serif;
     }
     
@@ -499,6 +493,11 @@ img#linkedInIcon {
     p#contactStart {
         padding-top: 8vw;
     }
+    
+    a#gitHubLink, a#linkedInLink {
+  margin: auto 42%;
+        text-decoration: none;
+}
     
     
 
