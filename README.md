@@ -1,5 +1,5 @@
 <h1>Adrian Rosales' Full Stack Web Developer Portfolio Site</h1>
-<p><a href='https://agitated-mcnulty-8bb0dc.netlify.com/'>Adrian Rosales (Web Developer + Opera Singer</a> is my portfolio page for my work as a full-stack web developer.</p>
+<p><a href='https://agitated-mcnulty-8bb0dc.netlify.com/'>Adrian Rosales (Web Developer + Opera Singer)</a> is my portfolio page for my work as a full-stack web developer.</p>
 <img src='assets/portfolioPreview.jpg'>
 
 ##GETTING STARTED
