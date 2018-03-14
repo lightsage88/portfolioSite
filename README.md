@@ -29,4 +29,5 @@
 <ul>
 	<li>Sylvain Garnot (@sylvaingarnot) for 'Pure CSS Starry Night Background' via codepen.io</li>
 	<li>Freepik.com for the Cat, Superhero, and Game-Controller images</li>
+	<li>SVGPorn.com for the svg file images for the technology icons I used throughout my site</li>
 </ul>
