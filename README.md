@@ -23,3 +23,10 @@
 <ul>
 	<li>Netlify</li>
 </ul>
+
+<h2>Credits</h2>
+<h3>Art</h3>
+<ul>
+	<li>Sylvain Garnot (@sylvaingarnot) for 'Pure CSS Starry Night Background' via codepen.io</li>
+	<li>Freepik.com for the Cat, Superhero, and Game-Controller images</li>
+</ul>
