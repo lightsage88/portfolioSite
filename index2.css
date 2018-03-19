@@ -111,7 +111,7 @@ p#aboutMeStart {
 }
 
 p#meParagraph {
-    font-size:4.4vw;
+    font-size:3.4vw;
 }
 
 div#title{
@@ -140,13 +140,24 @@ div#title small {
     color: silver;
 }
 
-img#adrian {
+/*img#adrian {
     height: auto;
     max-height:40vw;
     position: relative;
     float: left;
     margin-bottom:3vw;
     margin-right: 3vw;
+}*/
+img#adrian{
+    height: auto;
+    max-height: 40vw;
+    position: relative;
+    /* float: left; */
+    margin-bottom: 3vw;
+    margin-right: 3vw;
+    display: inline;
+    /* text-align: center; */
+    margin: auto 20%;
 }
 
 div.col.aboutMe {
@@ -423,7 +434,14 @@ img#linkedInIcon {
     }
     
     img#adrian{
+        margin:0;
         height:15vw;
+    max-height:40vw;
+    position: relative;
+    float: left;
+    margin-bottom:3vw;
+    margin-right: 3vw;
+
     }
     
     p#meParagraph {
