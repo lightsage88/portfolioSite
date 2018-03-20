@@ -33,7 +33,7 @@ nav {
     position: fixed;
     left:0;
     right:0;
-    z-index:8;
+    z-index:18;
     text-align:center;
 }
 
@@ -79,6 +79,7 @@ p#contactStart {
     font-size: 8vw;
     text-align:center;
     padding-top:5.5vw;
+    color: #333;
 }
 
 section.intro {
@@ -89,10 +90,11 @@ section.intro {
 
 h4#projectStart {
     text-align:center;
-        font-size: 8vw;
+        font-size: 5vw;
     font-family: 'Permanent Marker', sans-serif;
     margin-top: 3vw;
     padding-top: 8vw;
+    color: #333;
 }
 
 section.about {
@@ -108,6 +110,7 @@ p#aboutMeStart {
     font-weight: bolder;
     font-size: 5vw;
     font-family: 'Permanent Marker', sans-serif;
+    color: #333;
 }
 
 p#meParagraph {
@@ -170,7 +173,7 @@ p{
 }
 
 .project1{
-    background:black;
+    background:#333;
 /*        height: 69vh;*/
     height:auto;
 }
@@ -182,13 +185,13 @@ p.dpadText {
 }
 
 p.dpadText, span#dpadSpan {
-    font-size: 22vw;
+    font-size: 18vw;
         color: white;
         text-shadow: .7vw .7vw .2vw #63B0CD;
 }
 
 section.appInfo {
-    background: black;
+    background: #333;
 }
 
 .DPblurb {
@@ -238,7 +241,7 @@ img#dpad{
 
 #bookwormFrame {
 	    border: solid white;
-    background: black;
+    background: #333;
     margin-bottom: 1vw;
     margin-top: 4vw;
     position: relative;
@@ -298,7 +301,7 @@ section.bookwormInfo {
 }
 
 section.project3 {
-    background: black;
+    background: #333;
     margin-top: 15vw;
     height:auto;
 }
@@ -308,7 +311,7 @@ img#gdc {
 }
 
 .gdcDetails{
-    background:black;
+    background:#333;
 }
 
 p#gdcTitle{
@@ -328,7 +331,7 @@ p#gdcTitle{
     border-color: #8FC0A9;
     position: absolute;
     left: 54vw;
-    top: -126vw;
+    top: -90vw;
 }
 
 #gdcButton:hover {
@@ -341,7 +344,7 @@ p#gdcTitle{
 section.gdcStack {
     position:relative;
     left: -10vw;
-    background:black;
+    background:#333;
 }
 
 span.GDCblurb {
@@ -351,16 +354,12 @@ span.GDCblurb {
 }
 
 
-.credits {
-	font-family: 'UniversalAcc', sans-serif;
-	font-size: 8vw;
-	color: white;
-}
+
 
 .blackCredits {
     font-family: 'UniversalAcc', sans-serif;
     font-size: 8vw;
-    color:black;
+    color:#333;
 }
 
 section.stackIconBox {
@@ -393,14 +392,19 @@ a#gitHubLink, a#linkedInLink {
 }
 
 img#gitHubIcon {
-    height: 7vw;
-    margin-bottom:3vw
+        height: 4vw;
+    margin-bottom: 3vw;
+    position: absolute;
+    top: 0;
+    right: 51%;
     
 }
 
 img#linkedInIcon {
-    
-    height:7vw;
+    height: 4vw;
+    position: absolute;
+    top: 0;
+    left: 51%;
 }
 
 #email{
@@ -490,7 +494,7 @@ img#linkedInIcon {
     
     #gdcButton {
         left: 450%;
-        top: -37vw;
+        top: -29vw;
     }
     
     section.gdcStack {
@@ -517,11 +521,17 @@ img#linkedInIcon {
     }
     
     img#linkedInIcon {
-        height: 4vw;
+            height: 2vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
     }
     
     img#gitHubIcon {
-        height: 4vw;
+        height: 2vw;
+    position: absolute;
+    top: 0;
+    right: 51%;
     }
     
     #email, #salutation {
@@ -537,6 +547,8 @@ img#linkedInIcon {
     
     p#contactStart {
         padding-top: 8vw;
+        font-size: 5vw;
+        color:#333;
     }
     
     a#gitHubLink, a#linkedInLink {

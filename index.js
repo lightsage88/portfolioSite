@@ -1,6 +1,8 @@
 function showNav() {
 $(document).scroll(function() {
   let y = $(this).scrollTop();
+  console.log(y);
+  y += (y/2.7);
   let height =  Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
   if (y > height) {
     $('nav').slideDown('fast').removeClass('hidden');
