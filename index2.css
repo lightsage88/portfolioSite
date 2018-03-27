@@ -27,6 +27,10 @@ html, body {
     background: whitesmoke;
 }
 
+a.readme {
+    border:solid red;
+}
+
 nav {
     top:0;
     background: #DF2935;
@@ -215,6 +219,7 @@ img#dpad{
 	
     position: relative;
     top: 3vw;
+    cursor: pointer;
 }
 
 #dpadButton:hover {
@@ -278,6 +283,7 @@ h2#marvelousBookwormSuffix{
 	border-style: groove;
 	border-width: 3vw;
 	border-color: #DF2935;
+    cursor:pointer;
 	
 }
 
@@ -333,6 +339,7 @@ p#gdcTitle{
     position: absolute;
     left: 54vw;
     top: -90vw;
+    cursor: pointer;
 }
 
 #gdcButton:hover {
@@ -428,7 +435,7 @@ img#linkedInIcon {
 
 
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:750px) {
     div#title {
         font-size: 5vw;
         width:auto;
@@ -496,7 +503,7 @@ img#linkedInIcon {
     
     #gdcButton {
         left: 450%;
-        top: -29vw;
+        top: -34vw;
     }
     
     section.gdcStack {
