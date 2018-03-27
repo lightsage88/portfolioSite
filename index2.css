@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Kavivanar');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Monoton|Kavivanar');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Shrikhand');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @font-face {
@@ -27,8 +27,9 @@ html, body {
     background: whitesmoke;
 }
 
-a.readme {
-    border:solid red;
+a.readme:hover {
+   color:gold;
+    text-decoration: none;
 }
 
 nav {
@@ -322,9 +323,10 @@ img#gdc {
 }
 
 p#gdcTitle{
-    font-family: 'Delius Swash Caps', cursive;
+    font-family: 'Monoton', sans-serif;
 	font-weight: bolder;
-	color: #DF2935;
+	color: #23c9ff;
+    text-shadow: 0.2vh 1.2vh .2vh #8d3b72;
 	transform: rotate(-5deg);
 	margin-bottom: 3vw;
     font-size: 4.7vw;
@@ -511,7 +513,7 @@ img#linkedInIcon {
     }
     
    .stackIcon {
-	max-height: 4.5vw;
+	max-height: 3vw;
 	margin: auto 1.5vw;
 }
     
