@@ -523,7 +523,7 @@ img#linkedInIcon {
     }
     
     section.footer {
-        height: 100vh;
+        height: auto;
     }
     
     #gitHubLink p, #linkedInLink p {
