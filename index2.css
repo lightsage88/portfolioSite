@@ -448,6 +448,10 @@ img#linkedInIcon {
         top:10%
         
     }
+
+    #gdcButton {
+        right: -55%;
+    }
     
     img#adrian{
         margin:0;
@@ -577,6 +581,8 @@ img#linkedInIcon {
     div#title{
         font-size:4.4vw;
     }
+
+
     
 }
 
