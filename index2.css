@@ -64,6 +64,12 @@ li.nav-link {
     margin-right: 15px;
 }
 
+#nav-links li a:hover{
+    color: #E8C547;
+    text-decoration: none;    
+
+}
+
 nav.hidden {
     display: none;
 }
