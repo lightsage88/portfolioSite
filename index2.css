@@ -34,7 +34,7 @@ a.readme:hover {
 
 nav {
     top:0;
-    background: #DF2935;
+    background: #8e1b22;
     position: fixed;
     left:0;
     right:0;
@@ -54,6 +54,7 @@ ul#nav-links {
 #nav-links li a {
     color: #63B0CD;
     font-size:3vw;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -141,7 +142,7 @@ div#title{
 
 div#title span {
     color:#63B0CD;
-    text-shadow: .3vw .3vw .3vw #DF2935;
+    text-shadow: .3vw .3vw .3vw #8e1b22;
 }
 
 div#title small {
@@ -209,7 +210,7 @@ section.appInfo {
 }
 
 img#dpad{
-    height:16vw
+    height:15vw
 }
 
 #dpadButton {
@@ -242,7 +243,7 @@ img#dpad{
 }
 
 #bookworm {
-	height: 18vw;
+	height: 15vw;
 /*	transform: rotate(-20deg);
 */	border-radius: 2vw;
 }
@@ -284,7 +285,7 @@ h2#marvelousBookwormSuffix{
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
-	border-color: #DF2935;
+	border-color: #8e1b22;
     cursor:pointer;
 	
 }
@@ -317,7 +318,7 @@ section.project3 {
 }
 
 img#gdc {
-    height: 18vw;
+    height: 15vw;
 }
 
 .gdcDetails{
@@ -357,6 +358,10 @@ section.gdcStack {
     position:relative;
     left: 0;
     background:#333;
+        border-radius: 7vw;
+    /* border: solid white; */
+    padding: 2vw;
+    background: #9DA3A4;
 }
 
 span.GDCblurb {
