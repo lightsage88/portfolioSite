@@ -235,6 +235,10 @@ img#dpad{
 #dpStack {
     position: relative;
     left:-2vw;
+    border-radius: 7vw;
+    /* border: solid white; */
+    padding: 2vw;
+    background: #9DA3A4;
 }
 
 .project2 {
@@ -308,6 +312,10 @@ section.bookwormInfo {
 /*    right: -6vw;
 */    background: whitesmoke;
 right:0;
+border-radius: 7vw;
+    /* border: solid white; */
+    padding: 2vw;
+    background: #e8c547;
 
 }
 
@@ -506,9 +514,6 @@ img#linkedInIcon {
         font-size: 2vw;
     }
     
-    section#mbStack.stackIconBox{
-        left:0;
-    }
     
     span.GDCblurb {
         font-size: 2vw;
