@@ -14,7 +14,7 @@
 	src: url('assets/MGSFont/mgs2.ttf') format('truetype');
 }
 
-@media only screen(max-height: 370px) and (max-width: 600px) {
+@media only screen and (max-height: 370px) and (max-width: 600px) {
     div#title{
         font-size: 5vw;
     }
@@ -402,6 +402,8 @@ p#gdcTitle{
 	transform: rotate(-5deg);
     font-size: 3rem;
     grid-area: header;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #gdcButtonAWrapper {
