@@ -190,7 +190,43 @@ p{
     background:#333;
 /*        height: 69vh;*/
     height:auto;
+
+    display: grid;
+    grid-template-columns: 5% 2fr 1fr 5%;
+    grid-template-rows: .1fr .5fr .5fr .5fr;
+
+    grid-template-areas:
+    ". . . ."
+    ". header . ."
+    ". description image ."
+    ". stack . .";
 }
+
+#dPadTextDiv {
+    grid-area: header;
+}
+
+#dPadAppInfo {
+    grid-area: description;
+}
+
+#dpStack {
+    border-radius: 7vw;
+    background: #9DA3A4;
+    grid-area: stack;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5rem;
+    margin-top: .6rem;
+}
+
+
+#dPadAWrapButton {
+    grid-area: image;
+    text-align:center;
+}
+
 
 p.dpadText {
     font-family: 'MGSFont', sans-serif;
@@ -210,7 +246,7 @@ section.appInfo {
 
 .DPblurb {
         font-family: 'Open Sans Condensed', serif;
-    font-size: 6vw;
+    font-size: 1.5rem;
     color: #63B0CD;
     
 }
@@ -225,9 +261,6 @@ img#dpad{
 	border-style:groove;
 	border-width: 3vw;
 	border-color: #494F79;
-	
-    position: relative;
-    top: 3vw;
     cursor: pointer;
 }
 
@@ -238,14 +271,7 @@ img#dpad{
     animation-timing-function: linear;
 }
 
-#dpStack {
-    position: relative;
-    left:-2vw;
-    border-radius: 7vw;
-    /* border: solid white; */
-    padding: 2vw;
-    background: #9DA3A4;
-}
+
 
 .project2 {
 /*    height: 95vh;*/
