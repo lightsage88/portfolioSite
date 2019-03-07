@@ -298,10 +298,10 @@ img#dpad{
     background: #333;
     margin-bottom: 1vw;
     margin-top: 4vw;
-    position: relative;
-    right: 43vw;
-    width: max-content;
+    /* width: max-content; */
     grid-area: header;
+    height: fit-content;
+    margin: 1vw auto;
 }
 
 .bookwormInfo {
@@ -310,7 +310,7 @@ img#dpad{
 
 .MBblurb{
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 5.7vw;
+    grid-area: description;
 }
 
 img#marvelLogo {
@@ -536,7 +536,7 @@ img#linkedInIcon {
     }
     
     
-    .MBblurb{
+    /* .MBblurb{
 	font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2vw;
     background: whitesmoke;
@@ -547,7 +547,7 @@ img#linkedInIcon {
     }
     h2#marvelousBookwormSuffix {
         font-size: 2vw;
-    }
+    } */
     
     
     span.GDCblurb {
@@ -620,7 +620,7 @@ img#linkedInIcon {
 
 }
 
-
+/* 
 @media only screen and (min-width:500px) and (max-height:700px) {
     
     div#title{
@@ -629,5 +629,5 @@ img#linkedInIcon {
 
 
     
-}
+} */
 
