@@ -276,6 +276,15 @@ img#dpad{
 .project2 {
 /*    height: 95vh;*/
     height:auto;
+    display: grid;
+    grid-template-columns: 5% 2fr 1fr 5%;
+    grid-template-rows: .1fr .5fr .5fr .5fr;
+
+    grid-template-areas:
+    ". . . ."
+    ". . header ."
+    ". image description ."
+    ". . stack .";
 }
 
 #bookworm {
@@ -292,6 +301,11 @@ img#dpad{
     position: relative;
     right: 43vw;
     width: max-content;
+    grid-area: header;
+}
+
+.bookwormInfo {
+    grid-area: description;
 }
 
 .MBblurb{
@@ -301,7 +315,7 @@ img#dpad{
 
 img#marvelLogo {
 	height: 22vw;
-	display: inline;
+    display: inline;
 }
 
 h2#marvelousBookwormSuffix{
@@ -313,17 +327,17 @@ h2#marvelousBookwormSuffix{
     top: .5vw;
 }
 
-
+#bookWormButtonAWrap {
+    grid-area: image;
+    text-align:center;
+}
 
 #bookwormButton {
-    position: relative;
-    top: 35vw;
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
 	border-color: #8e1b22;
-    cursor:pointer;
-	
+    cursor:pointer;	
 }
 
 #bookwormButton:hover {
@@ -334,20 +348,14 @@ h2#marvelousBookwormSuffix{
     animation-direction: alternate-reverse;
 }
 
-section.bookwormInfo {
-    background: whitesmoke;
-    border: 0;
-}
+
 
 #mbStack {
-    position: absolute;
-/*    right: -6vw;
-*/    background: whitesmoke;
-right:0;
+ background: whitesmoke;
 border-radius: 7vw;
     /* border: solid white; */
-    padding: 2vw;
     background: #e8c547;
+    grid-area: stack;
 
 }
 
@@ -527,16 +535,11 @@ img#linkedInIcon {
         left:0%;
     }
     
-    button#bookwormButton {
-        position:absolute;
-        top:4em;
-        right:8em;
-    }
+    
     .MBblurb{
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 2vw;
-    
-        position:relative;
+    font-size: 2vw;
+    background: whitesmoke;
     }
     
     img#marvelLogo {
