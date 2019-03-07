@@ -85,6 +85,11 @@ section{
 */
 .credits, .stackIconBox {
     margin-bottom: 4vw;
+
+}
+
+.stackIconBox {
+    align-items: center;
 }
 
 p#contactStart {
@@ -282,9 +287,9 @@ img#dpad{
 
     grid-template-areas:
     ". . . ."
-    ". . header ."
-    ". image description ."
-    ". . stack .";
+    ". image header ."
+    ". . description ."
+    ". stack stack .";
 }
 
 #bookworm {
@@ -296,12 +301,12 @@ img#dpad{
 #bookwormFrame {
 	    border: solid white;
     background: #333;
-    margin-bottom: 1vw;
-    margin-top: 4vw;
     /* width: max-content; */
     grid-area: header;
     height: fit-content;
-    margin: 1vw auto;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "logo text";
 }
 
 .bookwormInfo {
@@ -311,20 +316,23 @@ img#dpad{
 .MBblurb{
 	font-family: 'Open Sans Condensed', sans-serif;
     grid-area: description;
+    font-size:1.5rem;
 }
 
 img#marvelLogo {
-	height: 22vw;
     display: inline;
+    grid-area:logo;
+    height:auto;
+    max-height: 100%;
+    width:auto;
+
 }
 
 h2#marvelousBookwormSuffix{
 	    font-size: 4.9vw;
     color: white;
-    display: inline;
     font-family: 'Comfortaa', sans-serif;
-    position: relative;
-    top: .5vw;
+    grid-area:text;
 }
 
 #bookWormButtonAWrap {
@@ -351,18 +359,31 @@ h2#marvelousBookwormSuffix{
 
 
 #mbStack {
- background: whitesmoke;
-border-radius: 7vw;
+    background: whitesmoke;
+    border-radius: 7vw;
     /* border: solid white; */
     background: #e8c547;
     grid-area: stack;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: .6rem;
+    padding: .5rem;
 
 }
 
 section.project3 {
     background: #333;
-    margin-top: 15vw;
     height:auto;
+    display: grid;
+    grid-template-columns: 5% 2fr 1fr 5%;
+    grid-template-rows: .1fr .5fr .5fr .5fr;
+
+    grid-template-areas:
+    ". . . ."
+    ". header image ."
+    ". description . ."
+    ". stack stack .";
 }
 
 img#gdc {
@@ -379,9 +400,12 @@ p#gdcTitle{
 	color: #23c9ff;
     text-shadow: 0.2vh 1.2vh .2vh #8d3b72;
 	transform: rotate(-5deg);
-	margin-bottom: 3vw;
-    font-size: 4.7vw;
-    margin-top: 6vw;
+    font-size: 3rem;
+    grid-area: header;
+}
+
+#gdcButtonAWrapper {
+    grid-area: image;
 }
 
 #gdcButton{
@@ -389,9 +413,6 @@ p#gdcTitle{
     border-style: groove;
     border-width: 3vw;
     border-color: #8FC0A9;
-    position: absolute;
-    top: 5%;
-    right: -42%;
     cursor: pointer;
 }
 
@@ -403,19 +424,25 @@ p#gdcTitle{
 }
 
 section.gdcStack {
-    position:relative;
-    left: 0;
+   
     background:#333;
         border-radius: 7vw;
-    /* border: solid white; */
-    padding: 2vw;
+grid-area: stack;
     background: #9DA3A4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: .5rem;
+    padding: .6rem;
+    align-items:center;
+
 }
 
 span.GDCblurb {
     font-family: 'Open Sans Condensed', sans-serif;
     color: whitesmoke;
-    font-size: 5.7vw;
+    font-size: 1.5rem;
+    grid-area: description;
 }
 
 
@@ -427,15 +454,9 @@ span.GDCblurb {
     color:#333;
 }
 
-section.stackIconBox {
-	display:inline-flex;
-    border:0;
-
-}
 
 .stackIcon {
-	max-height: 8.5vw;
-	margin: auto 1.5vw;
+    max-height: 8.5vw;
 }
 
 section.footer {
@@ -502,9 +523,7 @@ img#linkedInIcon {
         
     }
 
-    #gdcButton {
-        right: -55%;
-    }
+   
     
     img#adrian{
         margin:0;
