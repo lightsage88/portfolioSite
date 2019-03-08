@@ -47,12 +47,12 @@ body {
 }
 
 .stars {
-  background:#000 url(http://sylvaingarnot.fr/media/stars.png) repeat top center;
+  background:#000 url(https://image.ibb.co/mjnygo/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-  background:transparent url(http://sylvaingarnot.fr/media/twinkling.png) repeat top center;
+  background:transparent url(https://image.ibb.co/ir1DE8/twinkling.png) repeat top center;
   z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
@@ -63,7 +63,7 @@ body {
 }
 
 .clouds{
-    background:transparent url(http://sylvaingarnot.fr/media/clouds.png) repeat top center;
+    background:transparent url(https://image.ibb.co/bT4N7T/clouds.png) repeat top center;
     z-index:3;
 
   -moz-animation:move-clouds-back 200s linear infinite;
