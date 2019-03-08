@@ -355,7 +355,7 @@ img#marvelLogo {
 #marvelousBookwormPrefix {
     background: red;
     font-family: 'Marvel', sans-serif;
-    padding:1vw;
+    padding:0 1vw;
 }
 
 #marvelousBookwormSuffix{
