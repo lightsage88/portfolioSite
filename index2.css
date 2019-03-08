@@ -302,6 +302,11 @@ img#dpad{
     ". stack stack .";
 }
 
+.project2 {
+    grid-template-columns: 5% 2fr 3fr 5%;
+
+}
+
 
 
 #bookworm, #rcsImage {
@@ -321,6 +326,12 @@ img#dpad{
     grid-template-areas: "logo text";
     align-self: center;
 
+}
+
+#bookwormFrame {
+    width: fit-content;
+    justify-self: center;
+    font-size: 1.5rem;
 }
 
 .bookwormInfo, #rCSAppInfo {
@@ -344,13 +355,15 @@ img#marvelLogo {
 #marvelousBookwormPrefix {
     background: red;
     font-family: 'Marvel', sans-serif;
+    padding:1vw;
 }
 
 #marvelousBookwormSuffix{
-	font-size: inherit;
-    color: white;
-    font-family: 'Comfortaa', sans-serif;
-    grid-area:text;
+	color: white;
+    font-family: 'Marvel', sans-serif;
+    grid-area: text;
+    align-self: center;
+    padding: 0 1vw 0 0;
 }
 
 #bookWormButtonAWrap, #rcsAWrapButton {
