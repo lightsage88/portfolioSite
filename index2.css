@@ -7,6 +7,11 @@
 	src: url('assets/MovieFont/Uni_acc.ttf')format('truetype');
 }
 
+@font-face {
+    font-family: '9T';
+    src: url('assets/nineTwilightsFont/TT_OMNIB.ttf')format('truetype');
+}
+
 
 
 @font-face{
@@ -269,7 +274,7 @@ img#dpad{
     cursor: pointer;
 }
 
-#dpadButton:hover {
+#dpadButton:hover, #nineTwilightsButton:hover {
     animation-name: rotateButton;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -434,7 +439,7 @@ p#gdcTitle{
 
 
 
-section.gdcStack {
+section.gdcStack, .nineTwilightsStack {
    
     background:#333;
         border-radius: 7vw;
@@ -495,7 +500,62 @@ span.GDCblurb {
 }
 /* end of project4 specific rules */
 
+/*start of project5 rules*/
+/* grid-template-areas:
+    ". . . ."
+    ". header image ."
+    ". description . ."
+    ". stack stack ."; */
+#nineTwilightsHeaderDiv {
+    grid-area:header;
+    align-self:center;
+}
+#nineTwilightsTitle {
+    /* grid-area: header; */
+    font-family: '9T', sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-shadow: purple 0.2rem 0.51rem 2px;
+    align-self:center;
+    text-align:center;
+}
+#nineTwilightsHeaderDiv h3 {
+    font-family: 'Black Ops One', serif;
+    border: solid;
+    background: orange;
+    translate: rotate(80deg);
+    transform: rotate(-4deg);
+    text-align: center;
+}
+.nineTwilightsblurb {
+    grid-area: description;
+    color:whitesmoke;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.5rem;
+}
+#nineTwilightsButtonAWrapper{
+    grid-area: image;
+    justify-self: center;
+}
+#nineTwilightsButton {
+    border-radius: 3vw;
+    border-style: groove;
+    border-width: 3vw;
+    border-color: cyan;
+    background: indianred;
+    cursor: pointer;
+}
+.nineTwilightsStack {
+    grid-area: stack;
+}
 
+#nineTwilightsImage {
+    height: 15vw;
+}
+
+
+
+/*end of project 5 rules*/
 
 
 
