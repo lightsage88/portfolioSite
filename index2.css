@@ -371,7 +371,7 @@ h2#marvelousBookwormSuffix{
 }
 
 
-section.project3 {
+section.project3, .project5 {
     background: #333;
     height:auto;
     display: grid;
@@ -468,6 +468,7 @@ span.GDCblurb {
     grid-area: header;
     height: fit-content;
     display: block;
+    align-self: center;
 }
 
 #rCSTitleDiv h1 {
@@ -492,6 +493,8 @@ span.GDCblurb {
 #rcsButton {
     border-color:navy;
 }
+/* end of project4 specific rules */
+
 
 
 
