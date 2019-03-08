@@ -278,8 +278,7 @@ img#dpad{
 
 
 
-.project2 {
-/*    height: 95vh;*/
+.project2, .project4 {
     height:auto;
     display: grid;
     grid-template-columns: 5% 2fr 1fr 5%;
@@ -292,13 +291,13 @@ img#dpad{
     ". stack stack .";
 }
 
-#bookworm {
+#bookworm, #rcsImage {
 	height: 15vw;
 /*	transform: rotate(-20deg);
 */	border-radius: 2vw;
 }
 
-#bookwormFrame {
+#bookwormFrame, #rCSTitleDiv {
 	    border: solid white;
     background: #333;
     /* width: max-content; */
@@ -309,7 +308,7 @@ img#dpad{
     grid-template-areas: "logo text";
 }
 
-.bookwormInfo {
+.bookwormInfo, #rCSAppInfo {
     grid-area: description;
 }
 
@@ -321,7 +320,6 @@ img#dpad{
 
 img#marvelLogo {
     display: inline;
-    grid-area:logo;
     height:auto;
     max-height: 100%;
     width:auto;
@@ -335,12 +333,12 @@ h2#marvelousBookwormSuffix{
     grid-area:text;
 }
 
-#bookWormButtonAWrap {
+#bookWormButtonAWrap, #rcsAWrapButton {
     grid-area: image;
     text-align:center;
 }
 
-#bookwormButton {
+#bookwormButton, #rcsButton {
 	border-radius: 3vw;
 	border-style: groove;
 	border-width: 3vw;
@@ -358,7 +356,7 @@ h2#marvelousBookwormSuffix{
 
 
 
-#mbStack {
+#mbStack, #rcsStack {
     background: whitesmoke;
     border-radius: 7vw;
     /* border: solid white; */
@@ -371,6 +369,7 @@ h2#marvelousBookwormSuffix{
     padding: .5rem;
 
 }
+
 
 section.project3 {
     background: #333;
@@ -425,6 +424,16 @@ p#gdcTitle{
     animation-timing-function: linear;
 }
 
+#rcsButton:hover {
+    animation-name: rotateButton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+
 section.gdcStack {
    
     background:#333;
@@ -447,8 +456,47 @@ span.GDCblurb {
     grid-area: description;
 }
 
+/*project 4 specific rules */
+.project4 {
+    grid-template-columns: 5% 1fr 2fr 5%;
+}
+
+#rCSTitleDiv {
+    border: none;
+    background: whitesmoke;
+    width: auto;
+    grid-area: header;
+    height: fit-content;
+    display: block;
+}
+
+#rCSTitleDiv h1 {
+    font-family: 'Sonsie One', serif;
+    text-shadow: .1rem .1rem red;
+}
+#rCSTitleDiv h3 {
+    font-family: 'Black Ops One', serif;
+    border: solid;
+    background: orange;
+    translate: rotate(80deg);
+    transform: rotate(-4deg);
+    text-align: center;
+}
+
+#rCSAppInfo {
+    background: whitesmoke;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+#rcsButton {
+    border-color:navy;
+}
 
 
+
+
+/*credits rules*/
 
 .blackCredits {
     font-family: 'UniversalAcc', sans-serif;
