@@ -17,6 +17,10 @@
     src: url('assets/marvelFont/BEBAS___.ttf');
 }
 
+@font-face {
+    font-family: "SNES";
+    src: url('assets/SNES Font/SNES Italic.ttf');
+}
 
 
 @font-face{
@@ -217,16 +221,16 @@ p{
     ". stack . .";
 }
 
-#dPadTextDiv {
+#dPadTextDiv, #crosspadTextDiv {
     grid-area: header;
     justify-self: center;
 }
 
-#dPadAppInfo {
+#dPadAppInfo, #crosspadAppInfo{
     grid-area: description;
 }
 
-#dpStack {
+#dpStack, #crosspadStack {
     border-radius: 7vw;
     background: #9DA3A4;
     grid-area: stack;
@@ -238,20 +242,20 @@ p{
 }
 
 
-#dPadAWrapButton {
+#dPadAWrapButton, #crosspadAWrapButton {
     grid-area: image;
     text-align:center;
 }
 
 
-p.dpadText {
-    font-family: 'MGSFont', sans-serif;
+p.dpadText, p.crosspadText {
+    font-family: 'SNES', sans-serif;
     display:inline
     
 }
 
-p.dpadText, span#dpadSpan {
-    font-size: 18vw;
+p.dpadText, p.crosspadText, span#dpadSpan {
+    font-size: 10vw;
         color: white;
         text-shadow: .7vw .7vw .2vw #63B0CD;
 }
@@ -260,18 +264,18 @@ section.appInfo {
     background: #333;
 }
 
-.DPblurb {
+.DPblurb, .crosspadBlurb {
         font-family: 'Open Sans Condensed', serif;
     font-size: 1.5rem;
     color: #63B0CD;
     
 }
 
-img#dpad{
+img#dpad, img#crosspad{
     height:15vw
 }
 
-#dpadButton {
+#dpadButton, #crosspadButton {
     
 	border-radius: 3vw;
 	border-style:groove;
