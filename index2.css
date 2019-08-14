@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Delius+Swash+Caps|Walter+Turncoat|Monoton|Kavivanar');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Shrikhand');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@font-face {
+    font-family: "Poiret One";
+    src: url('assets/Poiret_One/PoiretOne-Regular.ttf') format('truetype');
+}
+
 @font-face {
 	font-family: 'UniversalAcc';
 	src: url('assets/MovieFont/Uni_acc.ttf')format('truetype');
@@ -319,7 +325,7 @@ img#dpad, img#crosspad{
 */	border-radius: 2vw;
 }
 
-#bookwormFrame, #rCSTitleDiv {
+#bookwormFrame, #rCSTitleDiv, #nocStudioHeaderDiv {
 	    border: solid white;
     background: #333;
     /* width: max-content; */
@@ -338,7 +344,7 @@ img#dpad, img#crosspad{
     font-size: 4vw;
 }
 
-.bookwormInfo, #rCSAppInfo {
+.bookwormInfo, #rCSAppInfo, .nocStudioBlurb {
     grid-area: description;
 }
 
@@ -393,7 +399,7 @@ img#marvelLogo {
 
 
 
-#mbStack, #rcsStack {
+#mbStack, #rcsStack, #nocStudioStackId {
     background: whitesmoke;
     border-radius: 7vw;
     /* border: solid white; */
@@ -408,7 +414,7 @@ img#marvelLogo {
 }
 
 
-section.project3, .project5 {
+section.project3, .project5, .project6 {
     background: #333;
     height:auto;
     display: grid;
@@ -587,6 +593,55 @@ span.GDCblurb {
 
 
 /*end of project 5 rules*/
+
+/*start of project 6 rules */
+#nocStudioTitle {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.7rem;
+    text-shadow: .2vw .2vw .2vw #E6C229;
+
+}
+
+.nocStudioBlurb {
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: auto;
+}
+
+.nocStudioStack {
+    grid-area: stack;
+}
+
+#nocStudioButtonAWrapper {
+    grid-area: header;
+}
+
+#nocStudioHeaderDiv {
+    border: none;
+    background: whitesmoke;
+    width: auto;
+    grid-area: image;
+    height: fit-content;
+    display: block;
+}
+.project6 {
+    background: unset;
+}
+
+#nocStudioButton {
+    border-radius: 3vw;
+    border-style: groove;
+    border-width: 3vw;
+    border-color: #E6C229;
+    background: pink;
+    cursor: pointer;
+}
+
+#nocStudioImage {
+    height: 15vw;
+}
+
+
+/*end of project 6 rules */
 
 
 
