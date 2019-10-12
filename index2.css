@@ -112,6 +112,8 @@ section{
     align-items: center;
 }
 
+
+
 p#contactStart {
     font-family: 'Permanent Marker', sans-serif;
     font-size: 8vw;
@@ -341,7 +343,7 @@ img#dpad, img#crosspad{
 #bookwormFrame {
     width: fit-content;
     justify-self: center;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 .bookwormInfo, #rCSAppInfo, .nocStudioBlurb {
@@ -516,6 +518,7 @@ span.GDCblurb {
 #rCSTitleDiv h1 {
     font-family: 'Sonsie One', serif;
     text-shadow: .1rem .1rem red;
+    font-size: 1.5rem;
 }
 #rCSTitleDiv h3 {
     font-family: 'Black Ops One', serif;
@@ -556,13 +559,14 @@ span.GDCblurb {
     align-self:center;
     text-align:center;
 }
-#nineTwilightsHeaderDiv h3 {
+#nineTwilightsHeaderDiv h3, .project3 h3 {
     font-family: 'Black Ops One', serif;
     border: solid;
     background: orange;
     translate: rotate(80deg);
     transform: rotate(-4deg);
     text-align: center;
+    width: fit-content;
 }
 .nineTwilightsblurb {
     grid-area: description;
