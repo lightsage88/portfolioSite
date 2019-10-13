@@ -214,13 +214,13 @@ p{
 
     display: grid;
     grid-template-columns: 5% 2fr 1fr 5%;
-    grid-template-rows: .1fr .5fr .5fr .5fr;
+    grid-template-rows: .1fr .5fr .5fr .2fr;
 
     grid-template-areas:
     ". . . ."
     ". header image ."
     ". description image ."
-    ". stack . .";
+    ". stack stack .";
 }
 
 #dPadTextDiv, #crosspadTextDiv {
@@ -241,6 +241,7 @@ p{
     justify-content: space-evenly;
     padding: .5rem;
     margin-top: .6rem;
+    height: fit-content;
 }
 
 
@@ -295,11 +296,11 @@ img#dpad, img#crosspad{
 
 
 
-.project2, .project4 {
+.project2, .project4, .project6 {
     height:auto;
     display: grid;
     grid-template-columns: 5% 2fr 1fr 5%;
-    grid-template-rows: .1fr .5fr .5fr .5fr;
+    grid-template-rows: .1fr .5fr .5fr .2fr;
 
     grid-template-areas:
     ". . . ."
@@ -313,7 +314,32 @@ img#dpad, img#crosspad{
 
 }
 
+#nocSection {
+display: grid;
+    grid-template-rows: .1fr .5fr .5fr .5fr;
+    grid-template-areas: ". . . ." ". image header ." ". . description ." ". stack stack .";
+    grid-template-columns: 5% 2fr 3fr 5%;
 
+}
+
+
+#nocVSInfo {
+    grid-area: description;
+}
+
+#nocVSStack {
+    background: #e8c547;
+    /* border-radius: 7vw; */
+    border-radius: 7vw;
+    /* background: #9DA3A4; */
+    grid-area: stack;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5rem;
+    margin-top: .6rem;
+    height: fit-content;
+}
 
 #bookworm, #rcsImage {
 	height: 15vw;
@@ -406,6 +432,7 @@ img#marvelLogo {
     justify-content: space-evenly;
     margin-top: .6rem;
     padding: .5rem;
+    height: fit-content;
 
 }
 
@@ -415,7 +442,7 @@ section.project3, .project5 {
     height:auto;
     display: grid;
     grid-template-columns: 5% 2fr 1fr 5%;
-    grid-template-rows: .1fr .5fr .5fr .5fr;
+    grid-template-rows: .1fr .5fr .5fr .2fr;
 
     grid-template-areas:
     ". . . ."
@@ -485,6 +512,7 @@ grid-area: stack;
     margin-top: .5rem;
     padding: .6rem;
     align-items:center;
+    height: fit-content;
 
 }
 
