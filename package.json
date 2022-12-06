@@ -19,7 +19,7 @@
   "homepage": "https://github.com/lightsage88/portfolioSite#readme",
   "dependencies": {
     "compass": "^0.1.1",
-    "express": "^4.16.2",
+    "express": "^4.18.2",
     "rotate-icon": "^1.0.3",
     "sass": "^1.0.0-beta.5.3"
   }
